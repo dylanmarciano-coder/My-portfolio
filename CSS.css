@@ -3,10 +3,17 @@ body {
   text-align: center;
 }
 
-* {
-  font-family: "TikTok Sans", sans-serif;
+.playwrite-no-cursive {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
+.small-pic {
+  border: 5px solid transparent;
+  border-radius: 30px;
+}
 
 /*hero banner*/
 .hero {
@@ -305,7 +312,7 @@ button {
 .container {
   position: fixed;
   bottom: 10px;
-  left: 100px;
+  left: 30px;
   padding: 3px;
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
@@ -335,10 +342,11 @@ button {
 .container2 {
   position: fixed;
   bottom: 10px;
-  left: 300px;
+  left: 200px;
   padding: 3px;
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
+  z-index: 10;
   transition: all 0.4s ease;
 }
 
@@ -348,7 +356,7 @@ button {
   inset: 0;
   margin: auto;
   border-radius: 0.9em;
-  z-index: -10;
+  z-index: -1;
   filter: blur(0);
   transition: filter 0.4s ease;
 }
@@ -393,10 +401,11 @@ button {
 .container4 {
   position: fixed;
   bottom: 10px;
-  left: 500px;
+  left: 388px;
   padding: 3px;
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
+  z-index: 10;
   transition: all 0.4s ease;
 }
 
@@ -406,7 +415,7 @@ button {
   inset: 0;
   margin: auto;
   border-radius: 0.9em;
-  z-index: -10;
+  z-index: -1;
   filter: blur(0);
   transition: filter 0.4s ease;
 }
@@ -422,7 +431,7 @@ button {
 .container5 {
   position: fixed;
   bottom: 10px;
-  left: 800px;
+  left: 585px;
   padding: 3px;
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
@@ -445,6 +454,35 @@ button {
   filter: blur(1.2em);
 }
 .container5:active::before {
+  filter: blur(0.2em);
+}
+
+.container6 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container6::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container6:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container6:active::before {
   filter: blur(0.2em);
 }
 
