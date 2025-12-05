@@ -1,0 +1,460 @@
+body {
+  background-color: #92ba92;
+  text-align: center;
+}
+
+* {
+  font-family: "TikTok Sans", sans-serif;
+}
+
+
+/*hero banner*/
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+    background: linear-gradient(to bottom right, #1e1e1e, #474747);
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #e0e0e0;
+}
+
+.hero-btn {
+    padding: 12px 28px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.hero-btn:hover {
+    background: #e4e4e4;
+}
+
+
+/*Connecting Buttons*/
+.button1 {
+  position: fixed;
+  bottom: 20px;
+  left: 300px;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button1:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button1:active {
+  transform: translateY(-1px);
+}
+
+.button2 {
+ position: fixed;
+  bottom: 20px;
+  left: 500px;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button2:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button2:active {
+  transform: translateY(-1px);
+}
+
+/*Picture*/
+.small-pic {
+  position: relative;
+  top: 50px;
+  width: 350px;   
+  height: auto;   
+}
+
+
+/*Card*/
+
+.card {
+  position: fixed;
+  top: 170px;
+  left: 37%;
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cards {
+  position:relative;
+  top: 60px;
+  left: 635px;
+  width: 650px;
+  height: 600px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.cards2 {
+  position:relative;
+  top: 150px;
+  left: 635px;
+  width: 650px;
+  height: 600px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card1 {
+  width: 600px;
+  height: 180px;
+  position: relative;
+  left: 30px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card2 {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 680px;
+  bottom: 100px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+  padding: 20px;
+  text-align: center;      
+}
+
+.card3 {
+  width: 600px;
+  height: 180px;
+  position: relative;
+  left: 1280px;
+  bottom: 570px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card4 {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  top: 17%;
+  left: 50px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.port1-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.card4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.card4:hover {
+  box-shadow: 0px 15px 20px #ffffea;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.card5 {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  bottom: 35%;
+  left: 37%;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.port2-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover; 
+}
+
+.card5 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card5:hover{
+  box-shadow: 0px 15px 20px #ffffea;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.card6 {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  bottom: 87%;
+  left: 70%;
+  right: 50px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card6:hover{
+  box-shadow: 0px 15px 20px #ffffea;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.port3-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover; 
+}
+
+.card6 a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+/*Buttons*/
+button {
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #d6ccc2;
+  color: #001219;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+}
+
+.container {
+  position: fixed;
+  bottom: 10px;
+  left: 100px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container:active::before {
+  filter: blur(0.2em);
+}
+
+
+.container2 {
+  position: fixed;
+  bottom: 10px;
+  left: 300px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container2:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container2:active::before {
+  filter: blur(0.2em);
+}
+
+.container3 {
+  position: fixed;
+  bottom: 10px;
+  left: 45px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container3:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container3:active::before {
+  filter: blur(0.2em);
+}
+
+.container4 {
+  position: fixed;
+  bottom: 10px;
+  left: 500px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container4:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container4:active::before {
+  filter: blur(0.2em);
+}
+
+.container5 {
+  position: fixed;
+  bottom: 10px;
+  left: 800px;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container5::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container5:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container5:active::before {
+  filter: blur(0.2em);
+}
+
+/*text container*/
+.cardtxt {
+ position: relative;
+ top: 50px;
+ left: 43%;
+ width: 250px;
+ height: 50px;
+ border-radius: 50px;
+ background: #e0e0e0;
+}
